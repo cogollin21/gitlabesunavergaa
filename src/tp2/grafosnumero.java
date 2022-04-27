@@ -14,7 +14,7 @@ private int [][] A;
 	// La cantidad de vertices esta predeterminada desde el constructor
 	public grafosnumero(int vertices)
 	{
-		A = new int[vertices][vertices];
+		A = new int[vertices][vertices];//son 300 pesos
 		
 	}
 	private void verificarVertice(int i)
